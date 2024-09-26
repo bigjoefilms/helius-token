@@ -9,7 +9,7 @@ import {
 import { createMint, mintTo, transfer } from '@lightprotocol/compressed-token';
 import { Keypair } from '@solana/web3.js';
 
-const RPC_ENDPOINT = 'https://devnet.helius-rpc.com/?api-key=c7e5b412-c980-4f46-8b06-2c85c0b4a08d';
+const RPC_ENDPOINT = 'https://devnet.helius-rpc.com/?api-key=YOUR_API_KEY';
 const COMPRESSION_RPC_ENDPOINT = RPC_ENDPOINT;
 
 // Generate keypairs for the payer and the recipient

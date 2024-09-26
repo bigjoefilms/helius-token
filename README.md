@@ -1,18 +1,28 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+## Solana Token Minting System
+This project provides a simple interface for minting and transferring tokens on the Solana blockchain using the @lightprotocol/stateless.js and @lightprotocol/compressed-token libraries. It demonstrates the process of creating a compressed token mint, minting tokens, and transferring them between accounts.
 
-First, run the development server:
+Table of Contents
+- Overview
+- Features
+- Prerequisites
+- Installation
+- Usage
+- Configuration
+- Customizing the Code
+- Troubleshooting
+- License
+- Acknowledgements
+-  Overview
+- This project showcases a basic implementation of a token minting system on the Solana blockchain. It uses a simple React component to interact with the Solana network, create a token mint, mint tokens to the - - - payer's account, and then transfer a portion of these tokens to a recipient.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Features
+Airdrop SOL: Requests airdrop of SOL to the payer and recipient for transaction fees.
+Create Mint: Creates a new compressed token mint.
+Mint Tokens: Mints a specified amount of tokens to the payer's account.
+Transfer Tokens: Transfers a portion of the minted tokens to a recipient's account.
+User Interface: Provides a basic UI for triggering these actions and displaying logs.
+
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
